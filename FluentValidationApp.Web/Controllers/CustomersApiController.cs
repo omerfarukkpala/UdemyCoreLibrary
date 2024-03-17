@@ -12,6 +12,7 @@ using FluentValidationApp.Web.DTOs;
 using Microsoft.AspNetCore.Routing;
 
 namespace FluentValidationApp.Web.Controllers
+
 {
     [Route("api/[controller]")]
     [ApiController]
