@@ -21,6 +21,7 @@ namespace Logging.Web.Controllers
 
         private readonly ILoggerFactory _loggerFactory;
 
+
         public HomeController(ILoggerFactory loggerFactory)
         {
             _loggerFactory = loggerFactory;
