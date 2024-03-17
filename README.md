@@ -82,7 +82,7 @@ Hangfire, arka planda çalışan işleri yönetmek için kullanılan bir kütüp
 
 ### ErrorHandling ile Hata Tespiti
 
-- AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir.
+AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir.
 - Hata yönetimi için ASP.NET Core Middleware kullanımını öğrenip özelleştirilmiş hata sayfalarının oluşturulması sağlar.
 - Kullanıcıya daha anlaşılır hata mesajları sunabilir.
 - Uygulamanın hatalarla başa çıkmasını sağlayabilir.
@@ -93,9 +93,8 @@ AspNet Core web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı 
 - Özelleştirilmiş hata sayfalarının oluşturulması
 - Hata loglama ve izleme
 - Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
-
-### Logging - NLog Kütüphanesi
-## Loglama
+- 
+## Logging - NLog Loglama Kütüphanesi 
 NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
 AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını ve güvenilirliğini sağlar. Loglama çeşitleri arasında dosya tabanlı loglama, veritabanı tabanlı loglama ve üçüncü taraf loglama servislerinin kullanımı gibi konuları öğrenerek uygulamanızın güvenilirliğini artırabilirsiniz. Bu kurs kapsamında aşağıdaki konular ele alındı:
 - Loglama temel kavramları ve seviyeleri (Debug, Info, Error, vb.)
@@ -105,7 +104,6 @@ AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını v
 NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
 
 ## Swagger Kullanımı  ile Ayrıntılı Dökümantasyon
-
 AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz.Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.Swagger UI aracılığıyla API endpoint'lerini görsel olarak inceleyebilir ve API dokümantasyonunu otomatik olarak oluşturabilirsiniz. Bu kütüphane, API tabanlı projelerde belgeleme sürecini kolaylaştırır ve API'larınızın daha anlaşılır olmasını sağlar. Bu kurs kapsamında aşağıdaki konular ele alındı:
 
 - Swagger'ın nasıl entegre edileceği
