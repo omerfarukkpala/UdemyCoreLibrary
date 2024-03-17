@@ -93,11 +93,13 @@ NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın 
 
 AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz.Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir. Bu kurs kapsamında aşağıdaki konular ele alındı:
 
-- Swagger'ın nasıl entegre edileceği ve yapılandırılacağı
+- Swagger'ın nasıl entegre edileceği
+- Swagger'ın nasıl yapılandırılacağı
 - Swagger UI'nin nasıl kullanılacağı
 - Ayrıntılı API belgelerinin nasıl oluşturulacağı
 - API'lar için parametrelerin, dönüş tiplerinin ve durum kodlarının nasıl belgelendirileceği
-Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.
+Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir.
+- Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.
 
 ### Environment Ortamlar ile Çalışmak
 ## Environment Ortamları
