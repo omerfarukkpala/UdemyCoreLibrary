@@ -1,0 +1,13 @@
+﻿Solid (S.O.L.I.D.), yazılım geliştirme prensiplerini ifade eden bir akronimdir. Bu prensipler, yazılımın esnek, sürdürülebilir ve bakımı kolay bir şekilde geliştirilmesini amaçlar. İşte SOLID prensiplerinin açıklamaları:
+
+Tek Sorumluluk Prensibi (Single Responsibility Principle - SRP): Bir sınıfın yalnızca bir sorumluluğu olmalıdır. Bir sınıfın birden fazla sorumluluğu olduğunda, değişiklikler bir sorunun diğerlerini etkilemesine ve kodun karmaşık hale gelmesine neden olabilir. Bu prensibe uygun olarak, her sınıfın yalnızca tek bir değişiklik nedeni olmalıdır.
+
+Açık Kapalı Prensibi (Open-Closed Principle - OCP): Bir sınıf, değişiklik yapmadan yeni davranışlar eklemek veya mevcut davranışları değiştirmek için genişletilebilir olmalı, ancak mevcut kodu değiştirmemelidir. Bunu sağlamak için, sınıflar genişletmeye açık ancak değişikliklere kapalı olmalıdır. Bu, kodun yeniden kullanılabilirliğini ve sürdürülebilirliğini artırır.
+
+Liskov İlkesi (Liskov Substitution Principle - LSP): Bir üst sınıf, türetilmiş sınıflar tarafından her zaman yerine konulabilir olmalıdır. Yani, bir üst sınıf nesnesinin kullanıldığı herhangi bir yerde, türetilmiş sınıfların da aynı şekilde kullanılması gerekmektedir. Bu prensip, polimorfizmi destekler ve kodun doğruluğunu ve güvenilirliğini sağlar.
+
+Arayüz Ayrımı İlkesi (Interface Segregation Principle - ISP): Kullanıcıların ihtiyaç duymadığı metodları içeren geniş arayüzler yerine, özel ihtiyaçlara yönelik daha küçük ve özelleştirilmiş arayüzler kullanılmalıdır. İstemciler, yalnızca kullandıkları metotlara bağımlı olmalıdır. Bu prensip, bağımlılıkları azaltır ve sınıflar arasındaki ilişkileri daha esnek hale getirir.
+
+Bağımlılıkların Tersine Çevrilmesi İlkesi (Dependency Inversion Principle - DIP): Bağımlılıklar, soyutlamalara ve somut uygulamalara bağımlı olmamalıdır. Bunun yerine, yüksek seviyeli modüller düşük seviyeli modüllere bağımlı olmamalıdır. Soyutlamalar, düşük seviyeli detaylardan izole edilmelidir. Bu prensip, bağımlılıkları azaltır ve yazılımın yeniden kullanılabilirliğini artırır.
+
+Bu SOLID prensipleri, yazılım geliştirme sürecinde daha temiz, esnek ve sürdürülebilir bir kod tabanı oluşturmayı hedefler. Bu prensiplere uymak, kodun daha kolay anlaşılmasını, değişikliklere daha iyi uyum sağlamasını ve yeniden kullanılabilirliği artırmasını sağlar.
