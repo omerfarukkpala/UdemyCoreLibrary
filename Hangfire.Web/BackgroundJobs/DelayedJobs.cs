@@ -30,6 +30,7 @@ namespace Hangfire.Web.BackgroundJobs
 
                         grp.DrawString(watermarktext, font, brus, point);
 
+
                         tempBitmap.Save(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/pictures/watermarks", filename));
                     }
                 }
