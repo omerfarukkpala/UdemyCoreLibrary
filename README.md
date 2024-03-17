@@ -1,7 +1,31 @@
 # .NET Core Developer - Bilinmesi Gereken Kütüphaneler Kursu
 
-Bu repository, Fatih Çakıroğlu'nun 16 saatlik .NET Core Developer - Bilinmesi Gereken Kütüphaneler kursunu tamamladığımı göstermektedir. Bu kurs boyunca SOLID prensipleri üzerine odaklandık ve çeşitli kütüphaneleri kullanarak gerçek senaryolar üzerinde uygulamalar geliştirdik.
+Bu repository, Fatih Çakıroğlu'nun 16 saatlik .NET Core Developer - Bilinmesi Gereken Kütüphaneler kursunu içeriğini göstermektedir. Bu kurs boyunca SOLID prensipleri üzerine odaklandık ve çeşitli kütüphaneleri kullanarak gerçek senaryolar üzerinde uygulamalar geliştirdik.
+## Kurs Detayları
 
+Bu kurs aşağıdaki konuları içermektedir:
+
+- SOLID Prensipleri
+- Kullanılan Kütüphaneler
+- Hata Yönetimi ve Sayfaları
+- Loglama
+- Swagger ile Ayrıntılı Dökümantasyon
+- Environment Ortamları
+## Kullanılan Kütüphaneler ve Konu Başlıkları
+
+Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve bunları gerçek senaryolar üzerinde uyguladık. İşte bazı kullanılan kütüphaneler:
+
+- **FluentValidation**
+  - Giriş verilerinin doğrulamasını kolaylaştıran bir kütüphane.
+- **AutoMapper Kütüphanesi**
+  - Nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphane.
+- **AspNetCoreRateLimit Kütüphanesi**
+  - API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphane.
+- **Swagger**
+  - API'lar için ayrıntılı belgeleme oluşturan bir kütüphane.
+- **NLog**
+  - Loglama için kullanılan bir kütüphane.
+  
 ## SOLID Prensipleri
 
 Bu kurs boyunca SOLID prensiplerini öğrendik ve gerçek senaryolar üzerinde uyguladık:
@@ -42,77 +66,52 @@ Smidge, web uygulamasında statik dosya yönetimi için kullanılan bir kütüph
 Hangfire, arka planda çalışan işleri yönetmek için kullanılan bir kütüphanedir. Örnek olarak, kullanıcıya ait belirli işlemleri zamanlayarak veya sürekli çalıştırarak kullanılabilir.
 
 ### ErrorHandling ile Hata Tespiti
-
-AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
-
-### Logging - NLog Kütüphanesi
-
-NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
-
-### Swagger Kullanımı
-
-Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.
-
-### Environment Ortamlar ile Çalışmak
-
-AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda çalışmak için kullanılır. Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir.
-
-## Kullanılan Kütüphaneler ve Konu Başlıkları
-
-Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve bunları gerçek senaryolar üzerinde uyguladık. İşte bazı kullanılan kütüphaneler:
-
-- **FluentValidation** FluentValidation, giriş verilerinin doğrulamasını kolaylaştıran bir kütüphanedir. Örnek olarak, bir formun doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılabilir.
-  - Giriş verilerinin doğrulamasını kolaylaştıran bir kütüphane.
-- **AutoMapper Kütüphanesi**
-  - Nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphane.
-- **AspNetCoreRateLimit Kütüphanesi**
-  - API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphane.
-- **Swagger**
-  - API'lar için ayrıntılı belgeleme oluşturan bir kütüphane.
-- **NLog**
-  - Loglama için kullanılan bir kütüphane.
-
 ## Hata Yönetimi ve Sayfaları
-
 AspNet Core web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Bu kurs boyunca aşağıdaki konuları öğrendik:
-
 - Hata yönetimi için ASP.NET Core Middleware kullanımı
 - Özelleştirilmiş hata sayfalarının oluşturulması
 - Hata loglama ve izleme
+AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
 
+### Logging - NLog Kütüphanesi
 ## Loglama
 NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
-AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını ve güvenilirliğini sağlar. Bu kurs kapsamında aşağıdaki konuları öğrendik:
-
+AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını ve güvenilirliğini sağlar. Bu kurs kapsamında aşağıdaki konular ele alındı:
 - Loglama temel kavramları ve seviyeleri (Debug, Info, Error, vb.)
 - Loglama kütüphanelerinin kullanımı (NLog gibi)
 - Loglama çeşitleri: dosya tabanlı loglama, veritabanı tabanlı loglama
 - Üçüncü taraf loglama servislerinin kullanımı
+NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
 
+### Swagger Kullanımı
 ## Swagger ile Ayrıntılı Dökümantasyon
 
-AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz.Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir. Bu kurs boyunca aşağıdaki konuları öğrendik:
+AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz.Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir. Bu kurs kapsamında aşağıdaki konular ele alındı:
 
 - Swagger'ın nasıl entegre edileceği ve yapılandırılacağı
 - Swagger UI'nin nasıl kullanılacağı
 - Ayrıntılı API belgelerinin nasıl oluşturulacağı
 - API'lar için parametrelerin, dönüş tiplerinin ve durum kodlarının nasıl belgelendirileceği
+Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.
 
+### Environment Ortamlar ile Çalışmak
 ## Environment Ortamları
-
-AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda (geliştirme, test, canlı vb.) çalışmak için kullanılır.Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir. Bu kurs kapsamında aşağıdaki konuları öğrendik:
+AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda (geliştirme, test, canlı vb.) çalışmak için kullanılır.Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir. Bu kurs kapsamında aşağıdaki konular ele alındı:
 
 - Hazır environment ortamlarının nasıl kullanılacağı (Development, Staging, Production)
 - Özelleştirilmiş environment ortamlarının nasıl oluşturulacağı
 - Canlıda environment ortamının nasıl değiştirileceği
 
-## Kurs Detayları
+AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda çalışmak için kullanılır. Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir.
 
-Bu kurs aşağıdaki konuları içermektedir:
 
-- SOLID Prensipleri
-- Kullanılan Kütüphaneler
-- Hata Yönetimi ve Sayfaları
-- Loglama
-- Swagger ile Ayrıntılı Dökümantasyon
-- Environment Ortamları
+
+
+
+
+
+
+
+
+
+
