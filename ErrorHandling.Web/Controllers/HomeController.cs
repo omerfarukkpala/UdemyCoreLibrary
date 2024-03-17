@@ -46,6 +46,7 @@ namespace ErrorHandling.Web.Controllers
         [AllowAnonymous] // Siteye üye olmayanlarda hata sayfasını görsün.
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
+
         {
             var exception = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
             ViewBag.Path = exception.Path;
