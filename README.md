@@ -16,19 +16,19 @@ Bu kurs aşağıdaki konuları içermektedir:
 Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve bunları gerçek senaryolar üzerinde uyguladık. İşte bazı kullanılan kütüphaneler:
 
 - **FluentValidation Kütüphanesi**
-  - Giriş verilerinin doğrulamasını kolaylaştıran bir kütüphane.
+  - Giriş verilerinin doğrulamasını kolaylaştıran bir kütüphanedir.
 - **AutoMapper Kütüphanesi**
-  - Nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphane.
+  - Nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphanedir.
 - **AspNetCoreRateLimit Kütüphanesi**
-  - API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphane.
+  - API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphanedir.
 - **Swagger Kütüphanesi**
-  - API'lar için ayrıntılı belgeleme oluşturan bir kütüphane.
+  - API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir.
 - **NLog Kütüphanesi**
-  - Loglama için kullanılan bir kütüphane.
+  - Loglama için kullanılan bir kütüphanedir.
 - **Hangfire Kütüphanesi**
-  - Arka plan görevleri için kullanılan bir kütüphane.
+  - Arka plan görevleri için kullanılan bir kütüphanedir.
 - **Smidge Kütüphanesi**
-  - Statik dosya yönetimi için kullanılan bir kütüphane.
+  - Statik dosya yönetimi için kullanılan bir kütüphanedir.
   
   
 ## SOLID Prensipleri
