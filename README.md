@@ -7,25 +7,65 @@ Bu repository, Fatih Çakıroğlu'nun 16 saatlik .NET Core Developer - Bilinmesi
 Bu kurs boyunca SOLID prensiplerini öğrendik ve gerçek senaryolar üzerinde uyguladık:
 
 - **Single Responsibility Principle (Tek Sorumluluk Prensibi)**
-  - Bir sınıfın sadece tek bir sorumluluğu olmalıdır.
+  - Bir sınıfın sadece tek bir sorumluluğu olmalıdır. Örnek olarak, bir kullanıcı nesnesi sadece kullanıcı bilgilerini tutmalı ve başka bir işlevi olmamalıdır.
 - **Open Closed Principle (Açık Kapalı Prensibi)**
-  - Bir sınıf, yeni davranışlar ekleyebilmelidir ancak mevcut kodu değiştirmemelidir.
+  - Bir sınıf, yeni davranışlar ekleyebilmelidir ancak mevcut kodu değiştirmemelidir. Örnek olarak, bir ödeme sistemi sınıfı yeni ödeme yöntemleri ekleyebilmeli ancak mevcut ödeme yöntemlerini değiştirmemelidir.
 - **Liskov Substitution Principle (Liskov Yerine Geçme Prensibi)**
-  - Üst sınıflar, türeyen sınıflar tarafından yerine geçilebilir olmalıdır.
+  - Üst sınıflar, türeyen sınıflar tarafından yerine geçilebilir olmalıdır. Örnek olarak, bir şekil sınıfının alt sınıfları (kare, daire vb.) şekil sınıfının yerine geçebilmelidir.
 - **Interface Segregation Principle (Arayüz Ayırma Prensibi)**
-  - İstemciler, ihtiyaç duymadıkları özellikleri içeren büyük arayüzler yerine daha özelleştirilmiş arayüzleri kullanmalıdır.
+  - İstemciler, ihtiyaç duymadıkları özellikleri içeren büyük arayüzler yerine daha özelleştirilmiş arayüzleri kullanmalıdır. Örnek olarak, bir arayüzün genel özelliklerini içeren bir arayüz ve daha spesifik işlevleri içeren ayrı arayüzler kullanılabilir.
 - **Dependency Inversion Principle (Bağımlılıkları Tersine Çevirme Prensibi)**
-  - Yüksek seviyeli modüller, düşük seviyeli modüllere bağımlı olmamalıdır.
+  - Yüksek seviyeli modüller, düşük seviyeli modüllere bağımlı olmamalıdır. Soyutlamalar, düşük seviyeli detaylardan izole edilmelidir. Örnek olarak, bir veritabanı bağlantı sınıfı yüksek seviyeli bir servis tarafından çağrılmalı ve doğrudan veritabanıyla ilişkili detaylar içermemelidir.
 
-## Kullanılan Kütüphaneler
+## Kullanılan Kütüphaneler ve Konu Başlıkları
+
+Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve aşağıdaki konu başlıklarını detaylandırdık:
+
+### Fluent Validation Kütüphanesi
+
+FluentValidation, giriş verilerinin doğrulamasını kolaylaştıran bir kütüphanedir. Örnek olarak, bir formun doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılabilir.
+
+### AutoMapper Kütüphanesi
+
+AutoMapper, nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphanedir. Örnek olarak, veritabanından alınan bir kullanıcı nesnesini, kullanıcı arayüzüne uygun hale getirmek için kullanılabilir.
+
+### RateLimit Kütüphanesi
+
+AspNetCoreRateLimit, API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphanedir. Örnek olarak, bir API'nin belli bir süre içinde alabileceği istek sayısını kontrol etmek için kullanılabilir.
+
+### Smidge Kütüphanesi
+
+Smidge, web uygulamasında statik dosya yönetimi için kullanılan bir kütüphanedir. Örnek olarak, CSS ve JavaScript dosyalarınızı optimize etmek ve etkin bir şekilde yönetmek için kullanılabilir.
+
+### Hangfire ile Job Oluşturma ve Hangfire Dashboard
+
+Hangfire, arka planda çalışan işleri yönetmek için kullanılan bir kütüphanedir. Örnek olarak, kullanıcıya ait belirli işlemleri zamanlayarak veya sürekli çalıştırarak kullanılabilir.
+
+### ErrorHandling ile Hata Tespiti
+
+AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
+
+### Logging - NLog Kütüphanesi
+
+NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
+
+### Swagger Kullanımı
+
+Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.
+
+### Environment Ortamlar ile Çalışmak
+
+AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda çalışmak için kullanılır. Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir.
+
+## Kullanılan Kütüphaneler ve Konu Başlıkları
 
 Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve bunları gerçek senaryolar üzerinde uyguladık. İşte bazı kullanılan kütüphaneler:
 
-- **FluentValidation**
+- **FluentValidation** FluentValidation, giriş verilerinin doğrulamasını kolaylaştıran bir kütüphanedir. Örnek olarak, bir formun doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılabilir.
   - Giriş verilerinin doğrulamasını kolaylaştıran bir kütüphane.
-- **AutoMapper**
+- **AutoMapper Kütüphanesi**
   - Nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphane.
-- **AspNetCoreRateLimit**
+- **AspNetCoreRateLimit Kütüphanesi**
   - API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphane.
 - **Swagger**
   - API'lar için ayrıntılı belgeleme oluşturan bir kütüphane.
@@ -41,7 +81,7 @@ AspNet Core web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı 
 - Hata loglama ve izleme
 
 ## Loglama
-
+NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
 AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını ve güvenilirliğini sağlar. Bu kurs kapsamında aşağıdaki konuları öğrendik:
 
 - Loglama temel kavramları ve seviyeleri (Debug, Info, Error, vb.)
@@ -51,7 +91,7 @@ AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını v
 
 ## Swagger ile Ayrıntılı Dökümantasyon
 
-AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz. Bu kurs boyunca aşağıdaki konuları öğrendik:
+AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz.Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir. Bu kurs boyunca aşağıdaki konuları öğrendik:
 
 - Swagger'ın nasıl entegre edileceği ve yapılandırılacağı
 - Swagger UI'nin nasıl kullanılacağı
@@ -60,7 +100,7 @@ AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir �
 
 ## Environment Ortamları
 
-AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda (geliştirme, test, canlı vb.) çalışmak için kullanılır. Bu kurs kapsamında aşağıdaki konuları öğrendik:
+AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda (geliştirme, test, canlı vb.) çalışmak için kullanılır.Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir. Bu kurs kapsamında aşağıdaki konuları öğrendik:
 
 - Hazır environment ortamlarının nasıl kullanılacağı (Development, Staging, Production)
 - Özelleştirilmiş environment ortamlarının nasıl oluşturulacağı
