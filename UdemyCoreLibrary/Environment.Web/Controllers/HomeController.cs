@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Environment.Web.Controllers
 {
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
