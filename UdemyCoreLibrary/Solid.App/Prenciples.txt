@@ -1,0 +1,14 @@
+Single Responsibility Principle (Tek Sorumluluk Prensibi - SRP) olarak adlandırılan prensip, bir sınıfın yalnızca bir işlevi veya sorumluluğu olması gerektiğini belirtir. Bu prensip, bir sınıfın birden fazla sorumluluk üstlenmesi durumunda, kodun karmaşık hale gelmesine ve bakımının zorlaşmasına neden olabileceğini vurgular. Dolayısıyla, her bir sınıfın yalnızca bir değişiklik nedeni olmalıdır ki bu da kodun anlaşılabilirliğini ve yönetilebilirliğini artırır.
+
+
+Açık Kapalı Prensibi (Open-Closed Principle - OCP)
+Bir sınıfın, yeni davranışları eklemek veya mevcut davranışları değiştirmek için genişletilebilir olması gereklidir. Ancak, mevcut kodun değiştirilmemesi önemlidir. Bu sayede, kodun tekrar kullanılabilirliği ve sürdürülebilirliği artırılır.
+
+Liskov İlkesi (Liskov Substitution Principle - LSP)
+Üst bir sınıfın, türetilmiş sınıflar tarafından her zaman yerine konulabilir olması önemlidir. Yani, bir üst sınıf nesnesinin kullanıldığı herhangi bir yerde, türetilmiş sınıfların da aynı şekilde kullanılması gerekmektedir. Bu prensip, kodun doğruluğunu ve güvenilirliğini sağlayarak polimorfizmi destekler.
+
+Arayüz Ayrımı İlkesi (Interface Segregation Principle - ISP)
+Geniş arayüzler yerine, ihtiyaç duyulan özelliklere yönelik daha küçük ve özelleştirilmiş arayüzler kullanılmalıdır. İstemciler, sadece kullandıkları metotlara bağımlı olmalı ve gereksiz metodlar içeren arayüzlerle ilişkili olmamalıdır. Bu prensip, bağımlılıkları azaltır ve sınıflar arasındaki ilişkileri daha esnek hale getirir.
+
+Bağımlılıkların Tersine Çevrilmesi İlkesi (Dependency Inversion Principle - DIP)
+Bağımlılıklar, soyutlamalara ve somut uygulamalara bağımlı olmamalıdır. Bunun yerine, yüksek seviyeli modüller düşük seviyeli modüllere bağımlı olmamalıdır. Soyutlamalar, düşük seviyeli detaylardan izole edilmelidir. Bu prensip, bağımlılıkları azaltır ve yazılımın yeniden kullanılabilirliğini artırır.
