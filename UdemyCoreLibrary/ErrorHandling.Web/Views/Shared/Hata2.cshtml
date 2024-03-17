@@ -1,0 +1,9 @@
+﻿@{
+    Exception ex = ViewData["exception"] as Exception;
+    ViewData["Title"] = "Hata2";
+}
+
+<h1>Hata2</h1>
+<h2>Hata mesajı: @ex.Message</h2>
+<h3>Hata sayfası : @ViewData["Url"]</h3>
+
