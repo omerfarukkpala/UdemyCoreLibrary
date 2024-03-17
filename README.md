@@ -31,21 +31,22 @@ Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve bunları gerçek 
   - Statik dosya yönetimi için kullanılan bir kütüphanedir.
   
   
-## SOLID Prensipleri
+## SOLID Prensipleri 
 
-Bu kurs boyunca SOLID prensiplerini öğrendik ve gerçek senaryolar üzerinde uyguladık:
+﻿Solid (S.O.L.I.D.) - Bu kurs boyunca SOLID prensiplerini öğrendik ve gerçek senaryolar üzerinde uyguladık:
 
 - **Single Responsibility Principle (Tek Sorumluluk Prensibi)**
-  - Bir sınıfın sadece tek bir sorumluluğu olmalıdır. Örnek olarak, bir kullanıcı nesnesi sadece kullanıcı bilgilerini tutmalı ve başka bir işlevi olmamalıdır.
+  - Bir sınıfın sadece tek bir sorumluluğu olmalıdır. Örnek olarak, bir kullanıcı nesnesi sadece kullanıcı bilgilerini tutmalı ve başka bir işlevi olmamalıdır.Her sınıfın yalnızca tek bir değişiklik nedeni olmalıdır.
 - **Open Closed Principle (Açık Kapalı Prensibi)**
-  - Bir sınıf, yeni davranışlar ekleyebilmelidir ancak mevcut kodu değiştirmemelidir. Örnek olarak, bir ödeme sistemi sınıfı yeni ödeme yöntemleri ekleyebilmeli ancak mevcut ödeme yöntemlerini değiştirmemelidir.
+  - Bir sınıfın, yeni davranışları eklemek veya mevcut davranışları değiştirmek için genişletilebilir olması gereklidir. Ancak, mevcut kodun değiştirilmemesi önemlidir. Bu sayede, kodun tekrar kullanılabilirliği ve sürdürülebilirliği artırılır. Bir sınıf, yeni davranışlar ekleyebilmelidir ancak mevcut kodu değiştirmemelidir. Örnek olarak, bir ödeme sistemi sınıfı yeni ödeme yöntemleri ekleyebilmeli ancak mevcut ödeme yöntemlerini değiştirmemelidir.
 - **Liskov Substitution Principle (Liskov Yerine Geçme Prensibi)**
-  - Üst sınıflar, türeyen sınıflar tarafından yerine geçilebilir olmalıdır. Örnek olarak, bir şekil sınıfının alt sınıfları (kare, daire vb.) şekil sınıfının yerine geçebilmelidir.
+  - Üst bir sınıfın, türetilmiş sınıflar tarafından her zaman yerine konulabilir olması önemlidir. Yani, bir üst sınıf nesnesinin kullanıldığı herhangi bir yerde, türetilmiş sınıfların da aynı şekilde kullanılması gerekmektedir. Bu prensip, kodun doğruluğunu ve güvenilirliğini sağlayarak polimorfizmi destekler. Üst sınıflar, türeyen sınıflar tarafından yerine geçilebilir olmalıdır. Örnek olarak, bir şekil sınıfının alt sınıfları (kare, daire vb.) şekil sınıfının yerine geçebilmelidir.
 - **Interface Segregation Principle (Arayüz Ayırma Prensibi)**
-  - İstemciler, ihtiyaç duymadıkları özellikleri içeren büyük arayüzler yerine daha özelleştirilmiş arayüzleri kullanmalıdır. Örnek olarak, bir arayüzün genel özelliklerini içeren bir arayüz ve daha spesifik işlevleri içeren ayrı arayüzler kullanılabilir.
+  -Geniş arayüzler yerine, ihtiyaç duyulan özelliklere yönelik daha küçük ve özelleştirilmiş arayüzler kullanılmalıdır. İstemciler, sadece kullandıkları metotlara bağımlı olmalı ve gereksiz metodlar içeren arayüzlerle ilişkili olmamalıdır. Bu prensip, bağımlılıkları azaltır ve sınıflar arasındaki ilişkileri daha esnek hale getirir. İstemciler, ihtiyaç duymadıkları özellikleri içeren büyük arayüzler yerine daha özelleştirilmiş arayüzleri kullanmalıdır. Örnek olarak, bir arayüzün genel özelliklerini içeren bir arayüz ve daha spesifik işlevleri içeren ayrı arayüzler kullanılabilir.
 - **Dependency Inversion Principle (Bağımlılıkları Tersine Çevirme Prensibi)**
-  - Yüksek seviyeli modüller, düşük seviyeli modüllere bağımlı olmamalıdır. Soyutlamalar, düşük seviyeli detaylardan izole edilmelidir. Örnek olarak, bir veritabanı bağlantı sınıfı yüksek seviyeli bir servis tarafından çağrılmalı ve doğrudan veritabanıyla ilişkili detaylar içermemelidir.
-
+  -Bağımlılıklar, soyutlamalara ve somut uygulamalara bağımlı olmamalıdır. Bunun yerine, yüksek seviyeli modüller düşük seviyeli modüllere bağımlı olmamalıdır. Soyutlamalar, düşük seviyeli detaylardan izole edilmelidir. Bu prensip, bağımlılıkları azaltır ve yazılımın yeniden kullanılabilirliğini artırır. Yüksek seviyeli modüller, düşük seviyeli modüllere bağımlı olmamalıdır. Soyutlamalar, düşük seviyeli detaylardan izole edilmelidir. Örnek olarak, bir veritabanı bağlantı sınıfı yüksek seviyeli bir servis tarafından çağrılmalı ve doğrudan veritabanıyla ilişkili detaylar içermemelidir.
+    
+Bu SOLID prensipleri, yazılım geliştirme sürecinde daha temiz, esnek ve sürdürülebilir bir kod tabanı oluşturmayı hedefler. Bu prensiplere uymak, kodun daha kolay anlaşılmasını, değişikliklere daha iyi uyum sağlamasını ve yeniden kullanılabilirliği artırmasını sağlar.
 ## Kullanılan Kütüphaneler ve Konu Başlıkları
 
 Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve aşağıdaki konu başlıklarını detaylandırdık:
