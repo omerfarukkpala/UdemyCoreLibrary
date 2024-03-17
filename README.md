@@ -93,7 +93,7 @@ AspNet Core web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı 
 - Özelleştirilmiş hata sayfalarının oluşturulması
 - Hata loglama ve izleme
 - Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
-- 
+  
 ## Logging - NLog Loglama Kütüphanesi 
 NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
 AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını ve güvenilirliğini sağlar. Loglama çeşitleri arasında dosya tabanlı loglama, veritabanı tabanlı loglama ve üçüncü taraf loglama servislerinin kullanımı gibi konuları öğrenerek uygulamanızın güvenilirliğini artırabilirsiniz. Bu kurs kapsamında aşağıdaki konular ele alındı:
