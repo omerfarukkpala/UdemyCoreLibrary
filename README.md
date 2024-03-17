@@ -52,34 +52,47 @@ Bu kurs kapsamında çeşitli kütüphanelerle çalıştık ve aşağıdaki konu
 
 ### Fluent Validation Kütüphanesi
 
-FluentValidation, giriş verilerinin doğrulamasını kolaylaştıran bir kütüphanedir. Örnek olarak, bir formun doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılabilir.Bu kütüphane, projelerde veri aktarımını kolaylaştırarak tekrarlanan kodu azaltabilir ve geliştirme sürecini hızlandırabilir.
+FluentValidation, giriş verilerinin doğrulamasını kolaylaştıran bir kütüphanedir.
+- Örnek olarak, bir formun doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılabilir.
+- Bu kütüphane, projelerde veri aktarımını kolaylaştırarak tekrarlanan kodu azaltabilir ve geliştirme sürecini hızlandırabilir.
 
 ### AutoMapper Kütüphanesi
 
-AutoMapper, nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphanedir. Örnek olarak, veritabanından alınan bir kullanıcı nesnesini, kullanıcı arayüzüne uygun hale getirmek için kullanılabilir.
+AutoMapper, nesneler arasında kolay veri eşleştirmesi sağlayan bir kütüphanedir. 
+- Örnek olarak, veritabanından alınan bir kullanıcı nesnesini, kullanıcı arayüzüne uygun hale getirmek için kullanılabilir.
 
 ### RateLimit Kütüphanesi
 
-AspNetCoreRateLimit, API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphanedir. Örnek olarak, bir API'nin belli bir süre içinde alabileceği istek sayısını kontrol etmek için kullanılabilir.Özellikle API tabanlı projelerde, istemcilere yönelik yapılan isteklerin belirli bir oranda sınırlanması ve aşırı kullanımın engellenmesi için kullanılabilir. Bu kütüphane, uygulamanın güvenliğini artırabilir ve performansını optimize edebilir.
+AspNetCoreRateLimit, API isteklerini sınırlayan ve hız sınırlaması sağlayan bir kütüphanedir.
+- Örnek olarak, bir API'nin belli bir süre içinde alabileceği istek sayısını kontrol etmek için kullanılabilir.
+-  API tabanlı projelerde, istemcilere yönelik yapılan isteklerin belirli bir oranda sınırlanması ve aşırı kullanımın engellenmesi için kullanılabilir.
+-  Uygulamanın güvenliğini artırabilir ve performansını optimize edebilir.
 
 ### Smidge Kütüphanesi
 
-Smidge, web uygulamasında statik dosya yönetimi için kullanılan bir kütüphanedir. Örnek olarak, CSS ve JavaScript dosyalarınızı optimize etmek ve etkin bir şekilde yönetmek için kullanılabilir.Aynı zamanda, web sayfalarının yükleme sürelerini azaltarak kullanıcı deneyimini iyileştirebilirsiniz. Bu kütüphane, web uygulamalarının performansını artırmak için ideal bir araçtır.
+Smidge, web uygulamasında statik dosya yönetimi için kullanılan bir kütüphanedir. 
+- Örnek olarak, CSS ve JavaScript dosyalarınızı optimize etmek ve etkin bir şekilde yönetmek için kullanılabilir.
+- Web sayfalarının yükleme sürelerini azaltarak kullanıcı deneyimini iyileştirebilirsiniz. Bu kütüphane, web uygulamalarının performansını artırmak için ideal bir araçtır.
 
 ### Hangfire ile Job Oluşturma ve Hangfire Dashboard
 
-Hangfire, arka planda çalışan işleri yönetmek için kullanılan bir kütüphanedir. Örnek olarak, kullanıcıya ait belirli işlemleri zamanlayarak veya sürekli çalıştırarak kullanılabilir. Ayrıca, Hangfire Dashboard aracılığıyla görevlerin durumunu izleyebilir ve yönetebilirsiniz. Bu kütüphane, özellikle arka plan işlemleri gerektiren projelerde kullanışlıdır.
+Hangfire, arka planda çalışan işleri yönetmek için kullanılan bir kütüphanedir.
+- Kullanıcıya ait belirli işlemleri zamanlayarak veya sürekli çalıştırarak kullanılabilir.
+- Hangfire Dashboard aracılığıyla görevlerin durumunu izleyebilir ve yönetebilirsiniz. Bu kütüphane, özellikle arka plan işlemleri gerektiren projelerde kullanışlıdır.
 
 ### ErrorHandling ile Hata Tespiti
 
-AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Hata yönetimi için ASP.NET Core Middleware kullanımını öğrenip özelleştirilmiş hata sayfalarının oluşturulması, kullanıcıya daha anlaşılır hata mesajları sunabilir ve uygulamanın hatalarla başa çıkmasını sağlayabilir.
+- AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir.
+- Hata yönetimi için ASP.NET Core Middleware kullanımını öğrenip özelleştirilmiş hata sayfalarının oluşturulması sağlar.
+- Kullanıcıya daha anlaşılır hata mesajları sunabilir.
+- Uygulamanın hatalarla başa çıkmasını sağlayabilir.
 
 ## Hata Yönetimi ve Sayfaları
-AspNet Core web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Bu kurs boyunca aşağıdaki konuları öğrendik:
+AspNet Core web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Bu kurs boyunca aşağıdaki konulara değindik:
 - Hata yönetimi için ASP.NET Core Middleware kullanımı
 - Özelleştirilmiş hata sayfalarının oluşturulması
 - Hata loglama ve izleme
-AspNet Core Web uygulamalarında hata yönetimi ve hata sayfaları, kullanıcı deneyimini iyileştirmek için önemlidir. Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
+- Örnek olarak, doğru şekilde hata mesajlarının gösterilmesi ve hataların izlenmesi için kullanılabilir.
 
 ### Logging - NLog Kütüphanesi
 ## Loglama
@@ -91,8 +104,7 @@ AspNet Core web uygulamalarında loglama işlemi, uygulamanın performansını v
 - Üçüncü taraf loglama servislerinin kullanımı
 NLog, loglama için kullanılan bir kütüphanedir. Örnek olarak, uygulamanın çalışma durumuyla ilgili bilgilerin kaydedilmesi ve analiz edilmesi için kullanılabilir.
 
-### Swagger Kullanımı
-## Swagger ile Ayrıntılı Dökümantasyon
+## Swagger Kullanımı  ile Ayrıntılı Dökümantasyon
 
 AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir şekilde belgelemek için kullanabilirsiniz.Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir. Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.Swagger UI aracılığıyla API endpoint'lerini görsel olarak inceleyebilir ve API dokümantasyonunu otomatik olarak oluşturabilirsiniz. Bu kütüphane, API tabanlı projelerde belgeleme sürecini kolaylaştırır ve API'larınızın daha anlaşılır olmasını sağlar. Bu kurs kapsamında aşağıdaki konular ele alındı:
 
@@ -104,8 +116,7 @@ AspNet Core Web API uygulamalarında Swagger, API'larınızı ayrıntılı bir �
 Swagger, API'lar için ayrıntılı belgeleme oluşturan bir kütüphanedir.
 - Örnek olarak, API'ların doğru şekilde belgelendirilmesi ve istemcilere sunulması için kullanılabilir.
 
-### Environment Ortamlar ile Çalışmak
-## Environment Ortamları
+## Environment Ortamlar ile Çalışmak
 AspNet Core Web uygulamalarında environment ortamları, farklı ortamlarda (geliştirme, test, canlı vb.) çalışmak için kullanılır.Örnek olarak, geliştirme, test ve canlı ortamlarda uygulamanın nasıl farklı davranacağının belirlenmesi için kullanılabilir. Bu kurs kapsamında aşağıdaki konular ele alındı:
 
 - Hazır environment ortamlarının nasıl kullanılacağı (Development, Staging, Production)
