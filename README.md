@@ -5,7 +5,7 @@ Bu repository, Fatih Çakıroğlu'nun 16 saatlik .NET Core Developer - Bilinmesi
   
 Bu kurs aşağıdaki konuları içermektedir: 
  
-- SOLID Prensipleri
+- SOLID Prensipleri 
 - Kullanılan Kütüphaneler 
 - Hata Yönetimi ve Sayfaları
 - Loglama
