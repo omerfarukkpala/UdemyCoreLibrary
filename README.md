@@ -1,6 +1,6 @@
   # .NET Core Developer - Bilinmesi Gereken Kütüphaneler Kursu                                                         
                      
-Bu repository, Fatih Çakıroğlu'nun 16 saatlik .NET Core Developer - Bilinmesi Gereken Kütüphaneler kursunu içeriğini göstermektedir. Bu kurs boyunca SOLID prensipleri üzerine odaklandık ve çeşitli kütüphaneleri kullanarak gerçek senaryolar üzerinde uygulamalar geliştirdik.
+Bu repository, Fatih Çakıroğlu'nun  .NET Core Developer - Bilinmesi Gereken Kütüphaneler kursunu içeriğini göstermektedir. Bu kurs boyunca SOLID prensipleri üzerine odaklandık ve çeşitli kütüphaneleri kullanarak gerçek senaryolar üzerinde uygulamalar geliştirdik.
 ## Kurs Detayları    
   
 Bu kurs aşağıdaki konuları içermektedir:    
