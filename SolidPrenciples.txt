@@ -1,5 +1,5 @@
 ﻿Solid (S.O.L.I.D.), yazılım geliştirme prensiplerini ifade eden bir akronimdir. Bu prensipler, yazılımın esnek, sürdürülebilir ve bakımı kolay bir şekilde geliştirilmesini amaçlar. İşte SOLID prensiplerinin açıklamaları:
-
+ 
 Single Responsibility Principle (Tek Sorumluluk Prensibi - SRP) olarak adlandırılan prensip, bir sınıfın yalnızca bir işlevi veya sorumluluğu olması gerektiğini belirtir. Bu prensip, bir sınıfın birden fazla sorumluluk üstlenmesi durumunda, kodun karmaşık hale gelmesine ve bakımının zorlaşmasına neden olabileceğini vurgular. Dolayısıyla, her bir sınıfın yalnızca bir değişiklik nedeni olmalıdır ki bu da kodun anlaşılabilirliğini ve yönetilebilirliğini artırır.
 
 Açık Kapalı Prensibi (Open-Closed Principle - OCP)
